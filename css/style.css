@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 20px;
-    background-color: #b08383;
+    background-color: #275385;
 }
 
 header {
@@ -20,26 +20,21 @@ button {
     display: block;
     margin: 20px auto;
     padding: 12px 25px;
-
-    background-color: #242424;
+    background-color: #2b3139;
     color: white;
     border: none;
-    border-radius: 8px;
-
+    border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
-}
-
-button {
-    background-color: #0b0b0b;
 }
 
 .about-section {
     display: none;
     margin: 30px auto;
     padding: 30px;
-    background-color: #0b0b0b;
+    background-color: #2b3139;
     color: white;
+    border-radius: 10px;
 }
 
 .about-section h2 {
