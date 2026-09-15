@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <figure>
+            <img src="images/berto.jpg"
+                 alt="Profile Picture"
+                 width="200"
+                 height="200">
+        </figure>
+
+        <h1 style="margin-top: 5px;">Hi, I'm Jobert Jan Bautista</h1>
+
+        <p>
+            PATIENCE IS A BERTO :)
+        </p>
+
+    </header>
+
+
+    <!-- BUTTON -->
+    <button onclick="showabout()" id="aboutButton">
+        Learn More About Me
+    </button>
+
+
+    <!-- ABOUT ME -->
+    <section id="about" class="about-section">
+
+        <h2>About Me</h2>
+
+            <p>
+                Hello! My name is <strong>Jobert Jan Bautista</strong>.
+                I am currently studying Bachelor of Science in Information Technology.
+            </p>
+
+            <p>
+                I am passionate about technology, programming, and web development.
+                I enjoy learning new programming languages and creating projects
+                that can help improve my skills in Information Technology.
+         </p>
+
+        <h3>My Interests</h3>
+
+            <ul>
+             <li>Web Development</li>
+             <li>Programming</li>
+            </ul>
+
+        <h3>My Goal</h3>
+            <ol>
+                <li>Become a skilled IT professional</li>
+                <li>Continuously improve knowledge and abilities</li>
+            </ol>
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function showabout() {
+
+            const about = document.getElementById("about");
+            const button = document.getElementById("aboutButton");
+
+            if (about.style.display === "none" || about.style.display === "") {
+
+                about.style.display = "block";
+                button.textContent = "Hide About Me";
+
+            } else {
+
+                about.style.display = "none";
+                button.textContent = "Learn More About Me";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
