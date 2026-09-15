@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #b08383;
-    box-sizing: border-box;
 }
 
 header {
@@ -37,7 +36,6 @@ button {
 
 .about-section {
     display: none;
-
     margin: 30px auto;
     padding: 30px;
     background-color: #0b0b0b;
@@ -53,6 +51,6 @@ button {
 }
 
 .about-section p {
-    line-height: 1.6;
+    line-height: 1.2;
 }
 
