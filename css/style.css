@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #275385;
+    box-sizing: border-box;
 }
 
 header {
@@ -49,3 +50,39 @@ button {
     line-height: 1.2;
 }
 
+.skills-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.skills-section {
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #2b3139;
+    color: white;
+    border-radius: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-card {
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #2b3139;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #325c94;
+}
+
+.skill-level {
+    height: 10px;
+    background-color: #4caf50;
+    border-radius: 5px;
+}
