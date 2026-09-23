@@ -1,8 +1,8 @@
+
 body {
     margin: 0;
     padding: 20px;
     background-color: #275385;
-    box-sizing: border-box;
 }
 
 header {
@@ -17,8 +17,8 @@ header img {
     border-radius: 50%;
 }
 
-button {
-    display: block;
+a.btn-link {
+    text-decoration: none;
     margin: 20px auto;
     padding: 12px 25px;
     background-color: #2b3139;
@@ -27,12 +27,22 @@ button {
     border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+a.btn-link:hover {
+    background-color: #325c94;
+    transform: scale(1.05);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .about-section {
-    display: none;
     margin: 30px auto;
     padding: 30px;
+    margin-top: 310px;
     background-color: #2b3139;
     color: white;
     border-radius: 10px;
@@ -40,6 +50,7 @@ button {
 
 .about-section h2 {
     margin-top: 0;
+    text-align: center;
 }
 
 .about-section h3 {
@@ -68,6 +79,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+    gap: 40px;
 }
 
 .skill-card {
@@ -79,4 +91,7 @@ button {
     border-radius: 10px;
     text-align: center;
     border: 2px solid #325c94;
+}
+.skill-h2 {
+    margin-top: 10px;
 }

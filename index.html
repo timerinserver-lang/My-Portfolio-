@@ -24,17 +24,12 @@
 
         <p style="margin-top: 2px; color: white;">
             PATIENCE IS A BERTO :) </p>
+        
+        <a href="#about" class="btn-link">Learn More About Me</a>
 
     </header>
 
-    <!-- BUTTON -->
-    <button onclick="showabout()" id="aboutButton">
-        Learn More About Me
-    </button>
-
-    <!-- ABOUT ME -->
     <section id="about" class="about-section">
-
         <h2>About Me</h2>
 
             <p>
@@ -51,8 +46,8 @@
         <h3>My Interests</h3>
 
             <ul>
-             <li>Web Development</li>
-             <li>Programming</li>
+                <li>Web Development</li>
+                <li>Programming</li>
             </ul>
 
         <h3>My Goal</h3>
@@ -68,50 +63,34 @@
             <div class="skills-container">
                 <div class="skill-card">
                     <h3>HTML</h3>
+                    <p>Webpage Developer</p>
                 </div>
 
                 <div class="skill-card">
                     <h3>CSS</h3>
+                     <p>Styling Webpage</p>
                 </div>
 
                 <div class="skill-card">
                     <h3>JavaScript</h3>
+                    <p>HTML Behavior</p>
                 </div>
 
                 <div class="skill-card">
                     <h3>Python</h3>
+                    <p>Visual Computing</p>
                 </div>
 
                 <div class="skill-card">
                     <h3>MySQL</h3>
+                    <p>Database Management</p>
                 </div>
 
                 <div class="skill-card">
                     <h3>Java</h3>
+                    <p>Object Oriented</p>
                 </div>
     </section>
-
-    <!-- JAVASCRIPT -->
-    <script>
-
-        function showabout() {
-
-            const about = document.getElementById("about");
-            const button = document.getElementById("aboutButton");
-
-            if (about.style.display === "none" || about.style.display === "") {
-
-                about.style.display = "block";
-                button.textContent = "Hide About Me";
-
-            } else {
-
-                about.style.display = "none";
-                button.textContent = "Learn More About Me";
-            }
-        }
-
-    </script>
 
 </body>
 
