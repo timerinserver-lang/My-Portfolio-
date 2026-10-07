@@ -95,3 +95,82 @@ html {
 .skill-h2 {
     margin-top: 10px;
 }
+
+.projects-section {
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #2b3139;
+    color: white;
+    border-radius: 10px;
+}
+
+.projects-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 80px;
+}
+
+.project-card {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #2b3139;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #325c94;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-content {
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-content p {
+    margin: 10px 0;
+    line-height: 1.2;
+    color: #d1d1d1;
+}
+
+.project-btn {
+    text-decoration: none;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #325c94;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    background-color: #2b3139;
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
