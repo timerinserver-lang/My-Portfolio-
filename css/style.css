@@ -1,9 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
     padding: 20px;
     background-color: #275385;
 }
+
+.navbar{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: #2b3139;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.nav-links a:hover {
+    background-color: #325c94;
+    color: white;
+}
+
 
 header {
     display: flex;
@@ -33,10 +81,6 @@ a.btn-link {
 a.btn-link:hover {
     background-color: #325c94;
     transform: scale(1.05);
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .about-section {
