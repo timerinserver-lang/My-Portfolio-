@@ -378,3 +378,21 @@ a.btn-link:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b3139;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-container{
+    margin-top: auto;
+}
+
+.back-to-home {
+    display: inline-block;
+    margin-top: 10px;
+    color: #325c94;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
